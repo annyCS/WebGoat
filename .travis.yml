@@ -15,7 +15,6 @@ addons:
     organization: "annycs"
     token:
       secure: "j4DgtwhKWFUTKLovCHGB4EAaoIw0MOZKb6fMa1nILSm0I9ZOco79kCyKBOkv7Q+lYXWik5Nz4HQ52Lvf9ROE08eaZZTJFz5ayb+DnIF1x8NgficgGQ5euBec/wVB081FcGriWNcFd2F5qFZdQvYi469JT4SOHYkQ7QlKDpzThKi0RnMC3qUbiqR7sL0UeO/HvDmvQX/C7YGAK5bajyOQXdEzEr2A/DPIDuiVGUdMfI6muHgSNjxjEp4B3JEJ1ponQkis5eOVGwKVpCDKh9Q1UDazAN6XrmGJ7eGhrqByAw5bxEsAnT1hUXjv3a26zFHc9+bpopYUjIyZgp7GBiuEEbFFKn0Tqr6ujuvNOEc7nPo72XYKJBeUq4eTicaoYMUMu5m8SYuto68KnfLDVwEjv/LMj2nezZ1T1/WVpW440l8SpuiCEBGKVTjUzlGrSZwz5n15xIUVFiL6C4mp4WlDjjam4Vlg1K6zwmdaXOl9JqbUUUD6KhFbEyDA4doRtZH96IvJfqVTovpwRkDwmHn0eTIMFSNcMpxcSf0+x9ilUoByTji6TWAv7yxg4D7JKxVrrdGgWqJC+VZ/pnuGczYHKMxU5lOJJn9nc5rmnnFA5elyv6lG2dMlhoTee0XXe/b6yoXTdZnhbJxub6O+437SldcHyuD9vO++B/lKBVYS/MA="
-
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   - mvn clean verify sonar:sonar -Dsonar.projectKey=annyCS_WebGoat

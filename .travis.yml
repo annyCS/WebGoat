@@ -8,7 +8,6 @@ dist: xenial
 jdk:
   - openjdk11
   - openjdk15
- 
 addons:
   firefox: latest
 install:  
